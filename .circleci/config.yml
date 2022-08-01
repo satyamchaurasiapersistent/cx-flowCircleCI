@@ -12,19 +12,16 @@ jobs:
     resource_class: satyamchaurasiapersistent/cxflowselfhosted
     steps:
       - run: echo "Hi I'm on Runners!"
-jobs:
   runner-test1:
     machine: true
     resource_class: satyamchaurasiapersistent/cxflowselfhosted
     steps:
       - run: echo "Hi I'm on Runners1!"
-jobs:
   runner-test2:
     machine: true
     resource_class: satyamchaurasiapersistent/cxflowselfhosted
     steps:
       - run: echo "Hi I'm on Runners2!"
-jobs:
   runner-test3:
     machine: true
     resource_class: satyamchaurasiapersistent/cxflowselfhosted
